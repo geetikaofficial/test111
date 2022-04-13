@@ -1,0 +1,157 @@
+Ques 6 :
+
+   		 bacon =22
+        bacon+1
+Output is : 23
+
+Ques 7:
+
+'spam'+'spamspam'
+Output is : 'spamspamspam'
+
+'spam'*3
+Output is : 'spamspamspam'
+
+The output of the two expression is same .
+
+Ques 8: 
+
+some rules to declare varaible:
+1. the first letter of the variable must be a character or underscore_.
+2. the first letter of the variable name never be a digit.
+and,According both of the rules: 
+eggs is a valid variable name becuase it starts with a character not with the special character or the digit.
+and 100 is not a valid variable name because it starts with a digit and variable name never starts with a digit.
+
+Example: 
+
+1. eggs="cock"
+			 print(eggs)
+Output is: cock
+    
+2. 100="cock"
+			  
+error : cannot assign  to literal
+
+
+Ques 10: 
+
+first we write this line of code in the jupyter notebook . 
+
+'i have eaten'+ 99 +'burritos'
+ 
+Type error : can only concatenate str(not "int) to str
+
+Ques 2:
+		
+String  = String is used to reperesent text and the text or charcters must be enclosed in single and double quotes.in string we can also insert space ,numbers etc.
+ex 1: 'geetika'(single quotes string)
+    "geetika"(double quotes string)
+ex 2 :
+str1 =("geetika")
+print(str)
+      
+str2=("i am pursuing my Msc")
+print(str2)
+ 
+Variable: Variable are the containers to store data values.we first assign a value to it.
+
+example: 
+x=5
+y="john"
+print(x)
+print(y)
+
+Rules:
+* Variable name must start with a letter or with underscore.
+* Variable name never start with a number.
+* Variable name is case-sensitive.
+
+Ques 3:
+		Three data types:
+     	* list
+		* set
+		* dictionary
+
+1.) List= list are used to store multiple value in a single variable.
+
+example1: l=["geet","ranga","geetika",23,411]
+ we can also add list into a list
+ex2: l1=['geet','ranga','geetika',21,212,["happy","lucky"]]
+ Also access list elements by index 
+ex 3: l[0]
+output is : 'geet'
+
+ Also reverse a string: l[::-1]
+Output is : [["happy","lucky"],212,21,'geetika','ranga','geet']
+
+2.) Set : Set are used to store multiple items in a single variable. Set is unordered,unchangable and unindexed.
+Set do not allow duplicate values.
+set={"geet","ranga","geetika"}
+print(set)
+
+find also the length of the set
+
+len(set)
+Output is :  3
+
+Also loop through the set items by using a for loop:
+for i in set:
+	print(x)
+
+	
+3.) Dictionary: It can store key:value pairs.A dictionary is a collection which is ordered,changable.
+
+dic1={"name":"geet","age":21,"year":2021}
+dic1["name"]
+Output : 'geet'
+Looping is also possible  :  
+
+for i in dic1:
+	  print(i)#print only the key values
+ Output is :name
+			 age
+			 year
+
+Ques 4:
+ 
+Expression : Expression is made up of operators and operands.Expression is a combination of operands and operators which produce some other value.
+
+ex= a+b #expession & + is an operator.
+
+lets take a look of example of expression:
+
+1.) a*b ,a>b,a>=b,a<=b, a<b, a==b , a%b, a**b
+2.) a and b ,a or b, not a
+3.) a>>2,a<<2
+4.) a+=,b+=,a-=,b-=
+5.) a/b , a//b
+
+
+Ques 9:
+
+Integer = int() function is used
+example: a=int(input("enter a value"))
+Floating point =float() function is used
+example : float(121)
+output : 121.0
+String = str() function is used
+example: str=("geet")
+		  print(str)
+output: 'geet' 
+
+Ques 5:
+As an example, spam=10 is an assignment statement 
+statement, the value 10 is assign to spam.
+ 
+expression : 
+spam=10
+spam+=1
+print(spam)
+   
+So, clearly define the difference.
+ 
+
+
+
+         
